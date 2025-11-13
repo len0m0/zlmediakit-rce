@@ -25,6 +25,9 @@ Modify the command when calling ffmpeg to the host command you wish to execute.
 <img width="551" height="499" alt="image" src="https://github.com/user-attachments/assets/cdad9c0e-3324-4e24-88e0-c2c1b09bb162" />
 
 Of course, we can also modify ffmpegsnap to execute system commands.
+<img width="425" height="377" alt="image" src="https://github.com/user-attachments/assets/2fcccbdf-a5fc-46b2-ba89-1b2edea353fb" />
+
+
 
 Execute system commands to access DNS logs.
 
